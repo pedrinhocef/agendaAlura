@@ -19,7 +19,7 @@
             android:id="@+id/item_nome"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="Nome"
+            android:text="@string/campo_nome"
             android:paddingLeft="10dp"
             android:textSize="30sp"
             android:textStyle="bold" />
@@ -28,10 +28,10 @@
             android:id="@+id/item_telefone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="Telefone"
+            android:text="@string/campo_telefone"
             android:paddingLeft="10dp"
             android:paddingTop="8dp"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:textStyle="bold" />
 
 
@@ -51,7 +51,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="8dp"
-            android:text="Endereco"
+            android:text="@string/campo_endereco"
             android:textSize="20sp" />
 
         <TextView
@@ -59,7 +59,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="8dp"
-            android:text="Site"
+            android:text="@string/campo_site"
             android:textSize="20sp" />
 
 

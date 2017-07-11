@@ -1,5 +1,7 @@
 <resources>
-    <string name="app_name">AgendaAlura</string>
-    <string name="ok">Ok</string>
-    <string name="enviar_notas">Enviar Notas</string>
+    <string name="app_name" translatable="false">AgendaAlura</string>
+    <string name="campo_nome" translatable="false">Nome</string>
+    <string name="campo_endereco" translatable="false">Endereço</string>
+    <string name="campo_telefone" translatable="false">Telefone</string>
+    <string name="campo_site" translatable="false">Site</string>
 </resources>
