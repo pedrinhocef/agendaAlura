@@ -10,4 +10,11 @@
         app:showAsAction="always"
         />
 
+    <item
+        android:id="@+id/menu_baixar_provas"
+        android:icon="@drawable/ic_receber"
+        app:showAsAction="always"
+        android:title="@string/baixar_provas">
+    </item>
+
 </menu>

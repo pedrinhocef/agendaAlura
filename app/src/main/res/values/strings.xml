@@ -4,4 +4,7 @@
     <string name="campo_endereco" translatable="false">Endereço</string>
     <string name="campo_telefone" translatable="false">Telefone</string>
     <string name="campo_site" translatable="false">Site</string>
+    <string name="ok">Ok</string>
+    <string name="enviar_notas">Enviar Notas</string>
+    <string name="baixar_provas">Baixar Provas</string>
 </resources>

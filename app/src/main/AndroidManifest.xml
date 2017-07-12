@@ -3,8 +3,8 @@
     package="br.com.pedrodroid.agendaalura">
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
-    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -20,10 +20,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".FormularioActivity"
-            android:parentActivityName=".ListaAlunosActivity">
-
-        </activity>
+        <activity
+            android:name=".FormularioActivity"
+            android:parentActivityName=".ListaAlunosActivity"></activity>
 
         <provider
             android:name="android.support.v4.content.FileProvider"
@@ -37,10 +36,11 @@
 
         <receiver android:name=".receiver.SMSReceiver">
             <intent-filter>
-                <action android:name="android.provider.Telephony.SMS_RECEIVED">
-                </action>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED"></action>
             </intent-filter>
         </receiver>
+
+        <activity android:name=".ProvasActivity"></activity>
     </application>
 
 </manifest>
