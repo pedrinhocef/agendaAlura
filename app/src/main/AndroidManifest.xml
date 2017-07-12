@@ -22,7 +22,7 @@
         </activity>
         <activity
             android:name=".FormularioActivity"
-            android:parentActivityName=".ListaAlunosActivity"></activity>
+            android:parentActivityName=".ListaAlunosActivity" />
 
         <provider
             android:name="android.support.v4.content.FileProvider"
@@ -36,11 +36,12 @@
 
         <receiver android:name=".receiver.SMSReceiver">
             <intent-filter>
-                <action android:name="android.provider.Telephony.SMS_RECEIVED"></action>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
             </intent-filter>
         </receiver>
 
-        <activity android:name=".ProvasActivity"></activity>
+        <activity android:name=".ProvasActivity" />
+        <activity android:name=".DetalhesProvaActivity"></activity>
     </application>
 
 </manifest>
