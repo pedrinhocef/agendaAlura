@@ -43,7 +43,9 @@ public class ProvasActivity extends AppCompatActivity {
 
     public void selecionaProva(Prova prova) {
         FragmentManager manager = getSupportFragmentManager();
+
         if (!estaNoModoPaisagem()) {
+
             FragmentTransaction tx = manager.beginTransaction();
 
             DetalhesProvaFragment detalhesFragment = new DetalhesProvaFragment();
@@ -53,7 +55,10 @@ public class ProvasActivity extends AppCompatActivity {
 
             tx.replace(R.id.frame_principal, detalhesFragment);
             tx.commit();
+            tx.addToBackStack(null);
+
         } else {
+
             DetalhesProvaFragment detalhesFragment =
                     (DetalhesProvaFragment) manager.findFragmentById(R.id.frame_secundario);
             detalhesFragment.populaCamposCom(prova);

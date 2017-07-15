@@ -1,4 +1,4 @@
-package br.com.pedrodroid.agendaalura;
+package br.com.pedrodroid.agendaalura.helper;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -6,6 +6,8 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.RatingBar;
 
+import br.com.pedrodroid.agendaalura.FormularioActivity;
+import br.com.pedrodroid.agendaalura.R;
 import br.com.pedrodroid.agendaalura.modelo.Aluno;
 
 /**

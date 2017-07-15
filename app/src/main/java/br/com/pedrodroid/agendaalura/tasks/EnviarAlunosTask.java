@@ -1,4 +1,4 @@
-package br.com.pedrodroid.agendaalura;
+package br.com.pedrodroid.agendaalura.tasks;
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -10,6 +10,7 @@ import java.util.List;
 import br.com.pedrodroid.agendaalura.converter.AlunoConverter;
 import br.com.pedrodroid.agendaalura.dao.AlunoDAO;
 import br.com.pedrodroid.agendaalura.modelo.Aluno;
+import br.com.pedrodroid.agendaalura.web.WebClient;
 
 /**
  * Created by pedrodroid on 06/07/17.

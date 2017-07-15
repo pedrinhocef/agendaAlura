@@ -1,6 +1,5 @@
 package br.com.pedrodroid.agendaalura;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
@@ -14,18 +13,14 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.Button;
 import android.widget.ListView;
-import android.widget.Toast;
 
 import java.util.List;
-import java.util.jar.Manifest;
 
 import br.com.pedrodroid.agendaalura.adapter.AlunosAdapter;
-import br.com.pedrodroid.agendaalura.converter.AlunoConverter;
 import br.com.pedrodroid.agendaalura.dao.AlunoDAO;
 import br.com.pedrodroid.agendaalura.modelo.Aluno;
+import br.com.pedrodroid.agendaalura.tasks.EnviarAlunosTask;
 
 public class ListaAlunosActivity extends AppCompatActivity {
 
@@ -160,6 +155,9 @@ public class ListaAlunosActivity extends AppCompatActivity {
                 Intent vaiPraProvas = new Intent(ListaAlunosActivity.this, ProvasActivity.class);
                 startActivity(vaiPraProvas);
                 break;
+            case (R.id.menu_mapa):
+                Intent vaiProMapa = new Intent(ListaAlunosActivity.this, MapaActivity.class);
+                startActivity(vaiProMapa);
         }
 
 

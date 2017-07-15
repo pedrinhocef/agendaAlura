@@ -1,4 +1,4 @@
-package br.com.pedrodroid.agendaalura;
+package br.com.pedrodroid.agendaalura.web;
 
 import java.io.IOException;
 import java.io.PrintStream;
